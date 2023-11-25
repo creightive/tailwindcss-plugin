@@ -4,7 +4,7 @@ export type BitTailwindPluginOptions = {
   prefix: string
   scaling: number
   neutral: 'slate' | 'gray' | 'mauve' | 'sage' | 'olive' | 'sand'
-  accent: 'crimson' | 'lime'
+  accent: 'crimson' | 'lime' | 'teal' | 'sky'
   radius: 'none' | 'sm' | 'md' | 'lg' | 'full'
 }
 
