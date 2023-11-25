@@ -1,0 +1,32 @@
+{
+  "name": "@creightive/tailwindcss-plugin",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint .",
+    "format:check": "prettier . --check --plugin-search-dir=. \"./**/*.{ts,js,cjs,json}\""
+  },
+  "devDependencies": {
+    "@radix-ui/colors": "^3.0.0",
+    "@swc/core": "^1.3.94",
+    "eslint": "^8.24.0",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.3.3",
+    "tslib": "^2.6.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3"
+  },
+  "author": "Bitwhys <bit@creightivedigital.io>",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ]
+}
